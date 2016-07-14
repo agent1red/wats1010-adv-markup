@@ -1,1 +1,71 @@
 /* Styles for the Advanced Markup assignment. */
+
+body {
+  background-image: whitesmoke;
+  background-size: cover;
+}
+/* Header section  */
+header h1 {
+  background-color: lightblue;
+  background-size: auto;
+  background: rgba(100, 100, 100, 0.5);
+  padding: 40px;
+  margin-right: 0cm;
+  border-bottom: 2px solid #000; 
+  font-size: 90px;
+  letter-spacing: 7px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+
+}
+/* End header section **************************** */
+
+/* Horizontal menu bar section */
+nav ul.top-nav  {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #233;
+}
+
+.top-nav li {
+  
+  float: left;
+  list-style-type: none;
+  background-color: #233;
+  border-right: 1px solid #bbb;
+  
+}
+.top-nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.top-nav li a:hover {
+  background-color: #111;
+  transition-duration: 0.8s;
+}
+/* End Horizontal menu bar section **************************** */
+
+/* Side bar section */
+
+aside#sidebar {
+  margin-top: 70px;
+  margin-right: 50px;
+  float: right;
+  width: 300px;
+  overflow: hidden;
+  background-color: lightcyan;
+  padding-left: 20px;
+}
+
+/* poem content section */
+section#content {
+  clear: both;
+}

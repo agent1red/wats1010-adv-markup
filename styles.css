@@ -4,32 +4,43 @@ body {
   background-image: whitesmoke;
   background-size: cover;
 }
+
+
 /* just setting borders here to see everything */
 
+
 /* * {
-  border: 1px solid #000000;
-} */
+  border: .5px solid #000000;
+}
+ */
+
+
 /* ***************** */
+
+
 /* Header section  */
+
 header h1 {
-  background-color: lightblue;
   background-size: auto;
   background: rgba(100, 100, 100, 0.5);
   padding: 40px;
   margin-right: 0cm;
-  border-bottom: 2px solid #000; 
+  border-bottom: 2px solid #000;
   font-size: 90px;
   letter-spacing: 7px;
   text-transform: capitalize;
   text-align: center;
   margin-bottom: 0px;
   margin-top: 0px;
-
 }
+
+
 /* End header section **************************** */
 
+
 /* Horizontal menu bar section */
-nav ul.top-nav  {
+
+nav ul.top-nav {
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -37,13 +48,12 @@ nav ul.top-nav  {
 }
 
 .top-nav li {
-  
   float: left;
   list-style-type: none;
   background-color: #233;
   border-right: 1px solid #bbb;
-  
 }
+
 .top-nav li a {
   display: block;
   color: white;
@@ -57,7 +67,10 @@ nav ul.top-nav  {
   background-color: #111;
   transition-duration: 0.8s;
 }
+
+
 /* End Horizontal menu bar section **************************** */
+
 
 /* Side bar section */
 
@@ -70,36 +83,152 @@ aside#sidebar {
   overflow: hidden;
   background-color: lightblue;
   padding-left: 20px;
-
 }
-
-#sidebar li {
-   list-style-type: square;
-   
+#sidebar dl {
+    padding: 0.5em;
 }
-#sidebar li a {
- text-decoration: none;
-  color: black;
-  line-height: 1.8;
-}
-#sidebar a: hover {
-  color: white;
-}
-/* poem content section */
-/* #content {
-
-  margin-top: 3.0rem;
-  margin-left: 2rem;
+ #sidebar dt {
+    float: left;
+    clear: left;
+    width: 100px;
+    text-align: right;
+    font-weight: bold;
     
-} */
+  }
+dd {
+    margin: 0 0 0 110px;
+    padding: 0 0 0.5em 0;
+  }
+#sidebar li {
+  list-style-type: none;
+}
+
+#sidebar li a {
+  display: block;
+  color: white;
+  border: 2px;
+  border-color: black;
+  text-align: left;
+  letter-spacing: 2px;
+  font-size: 25px;
+  padding-left: 0px;
+  margin-left: 0px;
+  text-decoration: none;
+}
+
+.twitter:hover {
+  /*   background-color: blue; */
+  background-color: rgba(0, 23, 30, .7);
+  margin-right: 6rem;
+  transition-duration: 0.4s;
+}
+
+.facebook:hover {
+  background-color: rgba(0, 23, 30, .7);
+  margin-right: 6rem;
+  transition-duration: 0.4s;
+}
+
+.pinterest:hover {
+  background-color: rgba(0, 23, 30, .7);
+  margin-right: 6rem;
+  transition-duration: 0.4s;
+}
+
+/* about-poe section  */
+
+p.bio-photo {
+  float: left;
+  display: block;
+  margin-bottom: .5cm;
+  border: thin silver solid;
+  margin: .5em;
+  margin-right: 2rem;
+  padding: 1.5em;
+    text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+}
+
+p.bio-photo img {
+  margin-bottom: 1.5rem;
+}
+
+ #content p:nth-of-type(2):first-letter{
+   float: left;
+  font-size: 3cm;
+  font-style: normal;
+  margin-right: .25cm;
+  line-height: 50%;
+  
+}
+
+
+/* end about-poe section */
+
+/* poem content section */
+
 #content ul.poem {
   padding-top: 3.5rem;
   padding-bottom: 7rem;
-  margin-left: 2rem;   
+  margin-left: 2rem;
   list-style: none;
   font-style: italic;
   font-size: 20px;
 }
-/* ul.poem li {
-   font-style: italic;
-} */
+
+
+/* footer section for index starts here */
+
+footer {
+  background-size: auto;
+  background: rgba(100, 100, 100, 0.5);
+}
+
+nav ul.bottom-nav {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #233;
+}
+
+.bottom-nav li {
+  float: left;
+  list-style-type: none;
+  background-color: #233;
+  border-right: 1px solid #bbb;
+}
+
+.bottom-nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+  padding: 10px 12px;
+  text-decoration: none;
+}
+
+.bottom-nav li a:hover {
+  background-color: #111;
+  transition-duration: 0.8s;
+}
+
+footer p {
+  position: absolute;
+  right: 70px;
+  padding-top: 4rem;
+}
+
+footer p.smalltext {
+  position: relative;
+  left: 10px;
+  padding-top: 4rem;
+}
+
+footer p.smalltext a {
+  padding-right: 1rem;
+}
+
+
+/* end footer section index changes */

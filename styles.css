@@ -1,9 +1,15 @@
-/* Styles for the Advanced Markup assignment. */
+/* Styles for the Advanced Markup assignment. This css code was created by Keving Hudson for WATS3010 class at SeattlU. 7/16/2016*/
 
 body {
   background-image: whitesmoke;
   background-size: cover;
 }
+/* just setting borders here to see everything */
+
+/* * {
+  border: 1px solid #000000;
+} */
+/* ***************** */
 /* Header section  */
 header h1 {
   background-color: lightblue;
@@ -58,14 +64,42 @@ nav ul.top-nav  {
 aside#sidebar {
   margin-top: 70px;
   margin-right: 50px;
+  margin-left: 40px;
   float: right;
   width: 300px;
   overflow: hidden;
-  background-color: lightcyan;
+  background-color: lightblue;
   padding-left: 20px;
+
 }
 
-/* poem content section */
-section#content {
-  clear: both;
+#sidebar li {
+   list-style-type: square;
+   
 }
+#sidebar li a {
+ text-decoration: none;
+  color: black;
+  line-height: 1.8;
+}
+#sidebar a: hover {
+  color: white;
+}
+/* poem content section */
+/* #content {
+
+  margin-top: 3.0rem;
+  margin-left: 2rem;
+    
+} */
+#content ul.poem {
+  padding-top: 3.5rem;
+  padding-bottom: 7rem;
+  margin-left: 2rem;   
+  list-style: none;
+  font-style: italic;
+  font-size: 20px;
+}
+/* ul.poem li {
+   font-style: italic;
+} */

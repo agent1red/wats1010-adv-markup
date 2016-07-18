@@ -98,15 +98,15 @@ dd {
 }
 /* adding icons to the links */
 a.twitter {
-  	background: transparent url("/twitter.png") no-repeat 80% 60%;
+  	background: transparent url("twitter.png") no-repeat 80% 60%;
 padding: 12px;
 }
 a.facebook {
-	background: transparent url("/facebook.png") no-repeat 80% 60%;
+	background: transparent url("facebook.png") no-repeat 80% 60%;
 padding: 12px;
 }
 a.pinterest {
-	background: transparent url("/pinterest.png") no-repeat 80% 60%;
+	background: transparent url("pinterest.png") no-repeat 80% 60%;
 padding: 12px;
 }
 
